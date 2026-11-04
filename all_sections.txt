@@ -1,0 +1,379 @@
+Found 21 sections in body:
+
+--- SECTION 1: section_slider (len: 1283) ---
+<section class="section_slider">
+                <div class="home-slider swiper-container">
+                    <div class="swiper-wrapper">                        
+                                                    <div class="swiper-slide">
+                                <a href="https://thaoduocannhien.net/promotion/uu-dai-khung-sale-thang-8/" class="clearfix" rel="nofollow">
+                                    <img src="https://thaoduocannhien.net/wp-content/uploads/2023/07/banner-khuyen-mai.png" alt="Ưu đãi Khủng &#8211; Sale Tháng 8" />
+                                </a>
+            
+...[truncated]...
+-giam-can-nalee-slim-the-bitter-cacao-1.jpg" alt="Khuyến Mãi Cực Khủng Với Sản Phẩm Bột Cacao Giảm Cân" />
+                                </a>
+                            </div>
+                                                
+                    </div>
+                </div>
+            </section>
+
+--- SECTION 2: section_danhmuc (len: 7440) ---
+<section class="section_danhmuc">
+                <div class="container">
+                    <div class="group_title_index">
+                        <h2 class="title">
+                            <a class="title-name" href="https://thaoduocannhien.net/san-pham/">
+                                Danh mục nổi bật
+                                <img width="25" height="25" class="lazyload" src="https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/lazy.png" data-src="https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/leaf.png" alt="Nổi bật" />
+                            <
+...[truncated]...
+                               </div>
+                                    <h3>Chăm Sóc Tóc</h3>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+--- SECTION 3: section_flashsale (len: 69467) ---
+<section class="section_flashsale">
+                <div class="container">
+                    <div class="thumb-flasale">
+                        <div class="group_title_index">
+                            <div class="title">
+                                <a class="title-name" href="#" title="Khuyến mãi hấp dẫn">
+                                    Khuyến mãi hấp dẫn
+                                    <img width="25" height="25" class="lazyload" src="https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/lazy.png" data-src="https://thaoduocannhien.net/wp-content/themes/hbd/assets
+...[truncated]...
+  </div>
+                        </div>
+                        <div class="see-more">
+                            <a href="https://thaoduocannhien.net/san-pham/" title="Xem tất cả">Xem tất cả</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+--- SECTION 4: section_dichvu (len: 2400) ---
+<section class="section_dichvu">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-10 col-sm-8">
+                            <div class="item">
+                                <!--img width="235" height="158" class="lazyload" src="https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/lazy.png" data-src="https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/dichvu_1.jpg" alt="" /-->
+                                <h3>Sản phẩm chính hãng</h3>
+                                <div class="content">
+   
+...[truncated]...
+               Nhiều hình thức thanh toán làm cho việc đặt hàng của bạn và shop trở nên dễ dàng và tiện lợi hơn rất nhiều.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+--- SECTION 5: section_product section_product1 (len: 57499) ---
+<section class="section_product section_product1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-xl-3 col-sm-5 d-none d-sm-block">
+                            <a class="image-effect" href="https://thaoduocannhien.net/danh-muc/ho-tro-giam-can/" title="Hỗ trợ giảm cân">
+                                <img width="667" height="1000" class="lazyload" src="https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/lazy.png" data-src="https://thaoduocannhien.net/wp-content/uploads/2023/06/banner-thuc-pham-chuc-nang
+...[truncated]...
+         <div class="see-more">
+                                <a href="https://thaoduocannhien.net/danh-muc/ho-tro-giam-can/" title="Xem tất cả">Xem tất cả</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+--- SECTION 6: section_3_banner (len: 339) ---
+<section class="section_3_banner">
+                <div class="container">
+					                    <div class="banner-slider swiper-container">
+                        <div class="swiper-wrapper" sdsds="0">
+                                                    </div>
+                    </div>
+                </div>
+            </section>
+...[truncated]...
+            <div class="container">
+					                    <div class="banner-slider swiper-container">
+                        <div class="swiper-wrapper" sdsds="0">
+                                                    </div>
+                    </div>
+                </div>
+            </section>
+
+--- SECTION 7: section_product section_product2 (len: 58124) ---
+<section class="section_product section_product2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-xl-3 col-sm-5 d-none d-sm-block">
+                            <a class="image-effect" href="https://thaoduocannhien.net/danh-muc/cham-soc-da-mat/" title="Chăm sóc da mặt">
+                                <img width="667" height="1000" class="lazyload" src="https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/lazy.png" data-src="https://thaoduocannhien.net/wp-content/uploads/2025/09/222.png" alt="Chăm sóc da 
+...[truncated]...
+         <div class="see-more">
+                                <a href="https://thaoduocannhien.net/danh-muc/cham-soc-da-mat/" title="Xem tất cả">Xem tất cả</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+--- SECTION 8: section_3_banner (len: 339) ---
+<section class="section_3_banner">
+                <div class="container">
+					                    <div class="banner-slider swiper-container">
+                        <div class="swiper-wrapper" sdsds="6">
+                                                    </div>
+                    </div>
+                </div>
+            </section>
+...[truncated]...
+            <div class="container">
+					                    <div class="banner-slider swiper-container">
+                        <div class="swiper-wrapper" sdsds="6">
+                                                    </div>
+                    </div>
+                </div>
+            </section>
+
+--- SECTION 9: section_product section_product3 (len: 58180) ---
+<section class="section_product section_product3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-xl-3 col-sm-5 d-none d-sm-block">
+                            <a class="image-effect" href="https://thaoduocannhien.net/danh-muc/ho-tro-suc-khoe/" title="Hỗ trợ sức khỏe">
+                                <img width="667" height="1000" class="lazyload" src="https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/lazy.png" data-src="https://thaoduocannhien.net/wp-content/uploads/2023/07/3.png" alt="Hỗ trợ sức khỏ
+...[truncated]...
+         <div class="see-more">
+                                <a href="https://thaoduocannhien.net/danh-muc/ho-tro-suc-khoe/" title="Xem tất cả">Xem tất cả</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+--- SECTION 10: section_3_banner (len: 339) ---
+<section class="section_3_banner">
+                <div class="container">
+					                    <div class="banner-slider swiper-container">
+                        <div class="swiper-wrapper" sdsds="0">
+                                                    </div>
+                    </div>
+                </div>
+            </section>
+...[truncated]...
+            <div class="container">
+					                    <div class="banner-slider swiper-container">
+                        <div class="swiper-wrapper" sdsds="0">
+                                                    </div>
+                    </div>
+                </div>
+            </section>
+
+--- SECTION 11: section_product section_product4 (len: 35613) ---
+<section class="section_product section_product4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-xl-3 col-sm-5 d-none d-sm-block">
+                            <a class="image-effect" href="https://thaoduocannhien.net/danh-muc/ho-tro-dep-da/" title="Hỗ trợ đẹp da">
+                                <img width="667" height="1000" class="lazyload" src="https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/lazy.png" data-src="https://thaoduocannhien.net/wp-content/uploads/2023/07/2.png" alt="Hỗ trợ đẹp da" />
+
+...[truncated]...
+           <div class="see-more">
+                                <a href="https://thaoduocannhien.net/danh-muc/ho-tro-dep-da/" title="Xem tất cả">Xem tất cả</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+--- SECTION 12: section_3_banner (len: 339) ---
+<section class="section_3_banner">
+                <div class="container">
+					                    <div class="banner-slider swiper-container">
+                        <div class="swiper-wrapper" sdsds="0">
+                                                    </div>
+                    </div>
+                </div>
+            </section>
+...[truncated]...
+            <div class="container">
+					                    <div class="banner-slider swiper-container">
+                        <div class="swiper-wrapper" sdsds="0">
+                                                    </div>
+                    </div>
+                </div>
+            </section>
+
+--- SECTION 13: section_product section_product5 (len: 58514) ---
+<section class="section_product section_product5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-xl-3 col-sm-5 d-none d-sm-block">
+                            <a class="image-effect" href="https://thaoduocannhien.net/danh-muc/ho-tro-tang-can/" title="Hỗ trợ tăng cân">
+                                <img width="667" height="1000" class="lazyload" src="https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/lazy.png" data-src="https://thaoduocannhien.net/wp-content/uploads/2023/07/tang-can.jpg" alt="Hỗ trợ 
+...[truncated]...
+         <div class="see-more">
+                                <a href="https://thaoduocannhien.net/danh-muc/ho-tro-tang-can/" title="Xem tất cả">Xem tất cả</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+--- SECTION 14: section_3_banner (len: 339) ---
+<section class="section_3_banner">
+                <div class="container">
+					                    <div class="banner-slider swiper-container">
+                        <div class="swiper-wrapper" sdsds="0">
+                                                    </div>
+                    </div>
+                </div>
+            </section>
+...[truncated]...
+            <div class="container">
+					                    <div class="banner-slider swiper-container">
+                        <div class="swiper-wrapper" sdsds="0">
+                                                    </div>
+                    </div>
+                </div>
+            </section>
+
+--- SECTION 15: section_product section_product6 (len: 58124) ---
+<section class="section_product section_product6">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-xl-3 col-sm-5 d-none d-sm-block">
+                            <a class="image-effect" href="https://thaoduocannhien.net/danh-muc/cham-soc-da-toan-than/" title="chăm sóc da toàn thân">
+                                <img width="667" height="1000" class="lazyload" src="https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/lazy.png" data-src="" alt="chăm sóc da toàn thân" />
+                            </a>
+   
+...[truncated]...
+   <div class="see-more">
+                                <a href="https://thaoduocannhien.net/danh-muc/cham-soc-da-toan-than/" title="Xem tất cả">Xem tất cả</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+--- SECTION 16: section_3_banner (len: 339) ---
+<section class="section_3_banner">
+                <div class="container">
+					                    <div class="banner-slider swiper-container">
+                        <div class="swiper-wrapper" sdsds="0">
+                                                    </div>
+                    </div>
+                </div>
+            </section>
+...[truncated]...
+            <div class="container">
+					                    <div class="banner-slider swiper-container">
+                        <div class="swiper-wrapper" sdsds="0">
+                                                    </div>
+                    </div>
+                </div>
+            </section>
+
+--- SECTION 17: section_product section_product7 (len: 24966) ---
+<section class="section_product section_product7">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-xl-3 col-sm-5 d-none d-sm-block">
+                            <a class="image-effect" href="https://thaoduocannhien.net/danh-muc/trang-diem/" title="Trang điểm">
+                                <img width="667" height="1000" class="lazyload" src="https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/lazy.png" data-src="" alt="Trang điểm" />
+                            </a>
+                        </div>
+     
+...[truncated]...
+              <div class="see-more">
+                                <a href="https://thaoduocannhien.net/danh-muc/trang-diem/" title="Xem tất cả">Xem tất cả</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+--- SECTION 18: section_3_banner (len: 339) ---
+<section class="section_3_banner">
+                <div class="container">
+					                    <div class="banner-slider swiper-container">
+                        <div class="swiper-wrapper" sdsds="0">
+                                                    </div>
+                    </div>
+                </div>
+            </section>
+...[truncated]...
+            <div class="container">
+					                    <div class="banner-slider swiper-container">
+                        <div class="swiper-wrapper" sdsds="0">
+                                                    </div>
+                    </div>
+                </div>
+            </section>
+
+--- SECTION 19: section_product section_product8 (len: 19589) ---
+<section class="section_product section_product8">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-xl-3 col-sm-5 d-none d-sm-block">
+                            <a class="image-effect" href="https://thaoduocannhien.net/danh-muc/cham-soc-toc/" title="Chăm Sóc Tóc">
+                                <img width="667" height="1000" class="lazyload" src="https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/lazy.png" data-src="" alt="Chăm Sóc Tóc" />
+                            </a>
+                        </div>
+...[truncated]...
+            <div class="see-more">
+                                <a href="https://thaoduocannhien.net/danh-muc/cham-soc-toc/" title="Xem tất cả">Xem tất cả</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+--- SECTION 20: section_3_banner (len: 339) ---
+<section class="section_3_banner">
+                <div class="container">
+					                    <div class="banner-slider swiper-container">
+                        <div class="swiper-wrapper" sdsds="0">
+                                                    </div>
+                    </div>
+                </div>
+            </section>
+...[truncated]...
+            <div class="container">
+					                    <div class="banner-slider swiper-container">
+                        <div class="swiper-wrapper" sdsds="0">
+                                                    </div>
+                    </div>
+                </div>
+            </section>
+
+--- SECTION 21: section_blog (len: 19025) ---
+<section class="section_blog">
+                <div class="container">
+                    <div class="group_title_index">
+                        <h3 class="title">
+                            <a class="title-name" href="#" title="Tin tức mới nhất">
+                                Tin tức mới nhất
+                                <img width="25" height="25" class="lazyload" src="https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/lazy.png" data-src="https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/leaf.png" alt="Tin tức mới nhất" />
+                            </a>
+
+
+...[truncated]...
+                       
+                            </div>
+                        </div>
+                    </div>
+					<div class="see-more">
+						<a href="https://thaoduocannhien.net/chuyen-muc/tin-tuc/" title="Xem tất cả">Xem tất cả</a>
+					</div>
+                </div>
+            </section>

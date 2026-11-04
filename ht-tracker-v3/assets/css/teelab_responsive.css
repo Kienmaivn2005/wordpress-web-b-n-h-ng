@@ -1,0 +1,193 @@
+/* ============================================================
+   TEELAB RESPONSIVE & ANTI-HORIZONTAL-SCROLL FIX
+   Chống tràn màn hình & ngăn chặn hiện tượng kéo qua kéo lại trên mobile
+   ============================================================ */
+
+html, body {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    position: relative !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    touch-action: pan-y !important;
+    -webkit-overflow-scrolling: touch;
+    -webkit-tap-highlight-color: transparent;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box !important;
+}
+
+/* Các khung bọc layout chính luôn nằm gọn trong màn hình */
+header, main, footer, section, article, nav,
+.main-index, .body-index, .page-wrapper, .wrapper,
+.layout-product, .section_product, .section_blog, 
+.section_lookbook, .svs-section, .midder-header {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+/* Khắc phục margin âm của Bootstrap Row trên mobile/tablet */
+@media (max-width: 991.98px) {
+    .row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .container, .container-fluid {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+    .col, [class*="col-"] {
+        padding-left: 6px !important;
+        padding-right: 6px !important;
+    }
+}
+
+/* Hình ảnh và đa phương tiện không được vượt kích cỡ container */
+img, video, canvas, svg, iframe {
+    max-width: 100% !important;
+    height: auto;
+}
+
+/* Bảng biểu tự co giãn hoặc cuộn mượt nội bộ, không làm giãn toàn trang */
+table {
+    max-width: 100% !important;
+    width: 100% !important;
+    table-layout: auto !important;
+}
+.table-responsive, .content_tab table, .product-summary table {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Thanh trượt Swiper luôn giữ trong khung */
+.swiper, .swiper-container {
+    max-width: 100% !important;
+    overflow: hidden !important;
+}
+
+/* Menu bên hông trên thiết bị di động nhỏ */
+.header-nav {
+    max-width: 85vw !important;
+}
+
+/* Modal và Popup */
+.modal-backdrop, .modal {
+    max-width: 100% !important;
+}
+
+/* Tránh ngắt dòng lỗi gây bè trang */
+p, span, h1, h2, h3, h4, h5, h6, a {
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+
+
+
+/* ================= FAQ & FOOTER ACCORDION ON MOBILE ================= */
+@media (max-width: 767.98px) {
+    .footer .title-menu,
+    .col-footer .title-menu {
+        cursor: pointer !important;
+        position: relative !important;
+        padding-right: 30px !important;
+        margin-bottom: 12px !important;
+        user-select: none !important;
+        -webkit-tap-highlight-color: transparent !important;
+    }
+    .footer .title-menu .Collapsible__Plus,
+    .col-footer .title-menu .Collapsible__Plus {
+        position: absolute !important;
+        right: 0 !important;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+        width: 20px !important;
+        height: 20px !important;
+        display: block !important;
+        pointer-events: none !important;
+    }
+    .footer .title-menu .Collapsible__Plus::before,
+    .col-footer .title-menu .Collapsible__Plus::before {
+        content: '' !important;
+        position: absolute !important;
+        top: 50% !important;
+        left: 50% !important;
+        width: 12px !important;
+        height: 2px !important;
+        background: #000 !important;
+        transform: translate(-50%, -50%) !important;
+        transition: transform 0.25s ease !important;
+    }
+    .footer .title-menu .Collapsible__Plus::after,
+    .col-footer .title-menu .Collapsible__Plus::after {
+        content: '' !important;
+        position: absolute !important;
+        top: 50% !important;
+        left: 50% !important;
+        width: 2px !important;
+        height: 12px !important;
+        background: #000 !important;
+        transform: translate(-50%, -50%) !important;
+        transition: transform 0.25s ease, opacity 0.25s ease !important;
+    }
+    .footer .title-menu.current .Collapsible__Plus::after,
+    .col-footer .title-menu.current .Collapsible__Plus::after {
+        opacity: 0 !important;
+        transform: translate(-50%, -50%) rotate(90deg) !important;
+    }
+    .footer .list-menu.hidden-mobile,
+    .col-footer .list-menu.hidden-mobile {
+        display: none;
+        padding-left: 5px !important;
+        margin-bottom: 15px !important;
+    }
+    .footer .list-menu.hidden-mobile.current,
+    .col-footer .list-menu.hidden-mobile.current {
+        display: block !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .product-tab .tab-link {
+        width: 100% !important;
+        border-bottom: 1px solid #eee !important;
+        margin-bottom: 10px !important;
+    }
+    .product-tab .tab-link h3 {
+        cursor: pointer !important;
+        font-size: 15px !important;
+        font-weight: 700 !important;
+        padding: 12px 0 !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+    }
+    .product-tab .content_extab {
+        display: none;
+        padding: 15px 0 !important;
+    }
+}
+
+
+
+/* Ẩn hoàn toàn mũi tên cuộn trang (back to top) */
+.backtop,
+#backToTopBtn,
+.scroll-top,
+.btn-back-to-top,
+.awe-backtotop,
+a[title="Lên đầu trang"] {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}

@@ -1,0 +1,269 @@
+Found 8 sections in Teelab body:
+
+--- SECTION 1: section_2banner (len: 1158) ---
+<section class="section_2banner" style="margin:0;padding:0;">
+  
+  <div class="position-relative">
+    <a href="https://teelab.vn/world-tour-tokyo" class="d-block">
+      <picture>
+        <source media="(max-width: 567px)" srcset="//bizweb.dktcdn.net/100/575/016/themes/1111006/assets/image_2banner_1_mb.jpg?1793084272807">
+        <img class="w-100" src="//bizweb.dktcdn.net/100/575/016/themes/1111006/assets/image_2banner_1.jpg?1793084272807" alt="WORLD TOUR: TOKYO" style="width:100%; height:100v
+...[truncated]...
+e" style="background:#0D0E0E; color:#fff; padding:0 20px; font-size:12px; font-family:'Geologica', sans-serif; font-weight:200; display:inline-block;">
+        <span class="btn-slide-inner"><span>NEW ARRIVALS</span><span>NEW ARRIVALS</span></span>
+      </a>
+    </div>
+  </div>
+  
+
+  
+
+  
+</section>
+
+--- SECTION 2: section_slider (len: 1985) ---
+<section class="section_slider" style="margin:0;padding:0;height:100vh;min-height:-webkit-fill-available;overflow:visible;">
+	
+<div class="home-slider swiper-container" style="height:100vh;min-height:-webkit-fill-available;">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<a href="https://teelab.vn/teelab-alter-essentials-fw26-1" class="clearfix" title="">
+					<picture style="display:block; height:100vh; overflow:visible;">
+						<source 
+								media="(min-width: 1200px)"
+		
+...[truncated]...
+					</h2>
+					
+					<div class="box_text_more">
+						<a href="https://teelab.vn/teelab-alter-essentials-fw26-1" title="SHOP NOW" >
+							SHOP NOW
+						</a>
+						<a href="/lookbook" title="THE STORY" >
+							THE STORY
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+</section>
+
+--- SECTION 3: section_product module_product mb-4 mb-lg-5 (len: 45650) ---
+<section class="section_product module_product mb-4 mb-lg-5">
+	<div class="container">
+		<div class="block-title d-flex align-items-center justify-content-between flex-wrap ">
+			<h2>
+				<a href="world-tour-tokyo" title="WORLD TOUR: TOKYO">WORLD TOUR: TOKYO</a>
+			</h2>
+			<a href="world-tour-tokyo" class="viewmore" title="see all">
+				see all
+			</a>
+		</div>
+		<div class="block-product product-1">
+			<div class="product-1-swiper swiper-container">
+				<div class="swiper-wrapper">
+					<div c
+...[truncated]...
+ce-box">
+				<span class="price">400.000₫</span>
+				<span class="compare-price ml-2 ml-lg-3">550.000₫</span>
+
+				<span class="sale s1">-
+27% 
+</span>
+			</div>
+		</div>
+	</form>
+</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-scrollbar mt-3 mt-lg-4"></div>
+		</div>
+	</div>
+</section>
+
+--- SECTION 4: section_product module_product mb-4 mb-lg-5 (len: 57507) ---
+<section class="section_product module_product mb-4 mb-lg-5">
+	<div class="container">
+		<div class="block-title d-flex align-items-center justify-content-between flex-wrap ">
+			<h2>
+				<a href="teelab-alter-essentials-fw26-1" title="TEELAB ALTER ESSENTIALS FW26">TEELAB ALTER ESSENTIALS FW26</a>
+			</h2>
+			<a href="teelab-alter-essentials-fw26-1" class="viewmore" title="see all">
+				see all
+			</a>
+		</div>
+		<div class="block-product product-2">
+			<div class="product-2-swiper swiper-contai
+...[truncated]...
+ce-box">
+				<span class="price">450.000₫</span>
+				<span class="compare-price ml-2 ml-lg-3">850.000₫</span>
+
+				<span class="sale s1">-
+47% 
+</span>
+			</div>
+		</div>
+	</form>
+</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-scrollbar mt-3 mt-lg-4"></div>
+		</div>
+	</div>
+</section>
+
+--- SECTION 5: section_product module_product mb-4 mb-lg-5 (len: 144115) ---
+<section class="section_product module_product mb-4 mb-lg-5">
+	<div class="container">
+		<div class="block-title d-flex align-items-center justify-content-between flex-wrap ">
+			<h2>
+				<a href="new-arrival-1" title="new:arrival">new:arrival</a>
+			</h2>
+			<a href="new-arrival-1" class="viewmore" title="see all">
+				see all
+			</a>
+		</div>
+		<div class="block-product product-3">
+			<div class="product-3-swiper swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide
+...[truncated]...
+ce-box">
+				<span class="price">300.000₫</span>
+				<span class="compare-price ml-2 ml-lg-3">350.000₫</span>
+
+				<span class="sale s1">-
+14% 
+</span>
+			</div>
+		</div>
+	</form>
+</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-scrollbar mt-3 mt-lg-4"></div>
+		</div>
+	</div>
+</section>
+
+--- SECTION 6: section_blog mb-4 mb-lg-5 (len: 5145) ---
+<section class="section_blog mb-4 mb-lg-5">
+	<div class="container">
+		<div class="block-title d-flex align-items-center justify-content-between flex-wrap mb-3 mb-lg-4">
+			<h2>
+				<a href="lookbook" title="look:book">look:book</a>
+			</h2>
+			<a href="lookbook" class="viewmore" title="see all">
+				see all
+			</a>
+		</div>
+		<div class="block-blog">
+			<div class="blog-swiper swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="item-blog">
+	<div
+...[truncated]...
+">
+		<h3>
+			<a class="line_1" href="/f5-x-teelab-5th-birthday-1" title="🎂 F5 x TEELAB | 5TH BIRTHDAY CELEBRATION 🎂">🎂 F5 x TEELAB | 5TH BIRTHDAY CELEBRATION 🎂</a>
+		</h3>
+	</div>
+</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-scrollbar mt-3 mt-lg-4"></div>
+		</div>
+	</div>
+</section>
+
+--- SECTION 7: section_lookbook mb-4 mb-lg-5 (len: 1872) ---
+<section class="section_lookbook mb-4 mb-lg-5">
+	<div class="container">
+		<div class="block-title d-flex align-items-center justify-content-between flex-wrap mb-3 mb-lg-4">
+			<h2>
+				<a href="#" title="teelab:friends">teelab:friends</a>
+			</h2>
+			<a href="#" class="viewmore" title="see all">
+				see all
+			</a>
+		</div>
+		<div class="lookbook-swiper swiper-container">
+			<div class="swiper-wrapper">
+				
+				
+				
+				
+				
+				<div class="swiper-slide">
+					<a class="image d-block zoom mo
+...[truncated]...
+assets/image_lookbook_4.jpg?1793084272807" alt="lookbook 4" width="600" height="600"/>
+					</a>
+				</div>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+--- SECTION 8: svs-section (len: 1325) ---
+<section class="svs-section" id="svsSection">
+  <div class="svs-inner">
+    <div class="svs-video-wrap">
+
+  <video id="svsVideo" src="https://archive.org/download/copy-130-cdabf-4-c-49-40-fe-822-b-7-b-7-c-98-c-4-e-30-b-2/copy_130CDABF-4C49-40FE-822B-7B7C98C4E30B%20%282%29.mp4" muted autoplay playsinline loop preload="auto" class="svs-video-pc"></video>
+
+
+  <video id="svsVideoMb" src="https://archive.org/download/copy-88093089-7-b-0-e-4-a-44-9-a-46-07-ad-91041-edd-1-1/copy_88093089-7B0E-4A44-9A46
+...[truncated]...
+arrying a fragment of Tokyo, made for those who see style as a way to tell their own story.</div>
+      
+      
+        <a class="svs-btn" href="https://teelab.vn/teelab-alter-essentials-fw26-1" data-text="XEM THÊM">
+          <span>XEM THÊM</span>
+        </a>
+      
+    </div>
+
+  </div>
+</section>

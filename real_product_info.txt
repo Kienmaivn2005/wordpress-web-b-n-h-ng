@@ -1,0 +1,16 @@
+Length: 3215723
+Title: Nước Hoa Hồng Dr Pepti – Cấp Ẩm Sâu, Phục Hồi Da Căng Bóng Tự Nhiên - Thảo Dược An Nhiên
+Sections in product: ['bread-crumb', 'product layout-product']
+CSS files in product page: 12
+  CSS: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/ajaxcart.scss.css
+  CSS: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/bootstrap-4-3-min.css
+  CSS: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/bpr.min.css
+  CSS: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/breadcrumb_style.scss.css
+  CSS: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/fonts.google.css
+  CSS: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/index.scss.css
+  CSS: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/main.scss.css
+  CSS: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/picbox.scss.css
+  CSS: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/product_style.scss.css
+  CSS: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/quickviews_popup_cart.scss.css
+  CSS: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/sweetalert.min.css
+  CSS: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/swiper.scss.css

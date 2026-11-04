@@ -1,0 +1,70 @@
+Length: 556046
+Title: Thảo Dược An Nhiên - Chăm Sóc Cơ Thể, Nuôi Dưỡng Tâm Hồn
+Themes: {'hbd'}
+Plugins: []
+
+CSS files count: 8
+  CSS: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/ajaxcart.scss.css
+  CSS: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/bootstrap-4-3-min.css
+  CSS: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/bpr.min.css
+  CSS: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/fonts.google.css
+  CSS: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/index.scss.css
+  CSS: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/main.scss.css
+  CSS: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/quickviews_popup_cart.scss.css
+  CSS: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/swiper.scss.css
+
+Header found! First 1000 chars of header:
+<header class="header">
+            <div class="container">
+                <div class="row row-header align-items-center">
+                    <div class="menu-bar d-lg-none d-flex">
+                        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-bars fa-w-14">
+                            <path fill="#ffffff" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z" class=""></path>
+                        </svg>
+                    </div>
+                    <div class="col-lg-2">
+                        <a href="https://thaoduocannhien.net" class="logo" title="Thảo Dược 
+
+Menu items: []
+
+Footer found! Length: 9319
+<footer class="footer">
+			<p style=" margin: 2px auto; text-align: center; padding-top: 15px; font-style: italic;">
+							* Các sản phẩm trên website <b>không phải là thuốc</b> và không có tác dụng thay thế thuốc chữa bệnh !
+						</p>
+            <div class="mid-footer">
+                <div class="container">
+					
+                    <div class="row">
+						
+                        <div class="col-12 col-md-6 col-lg-3 ft-info col-footer">
+                            <a href="https://thaoduocannhien.net" class="logo-ft" title="Thảo Dược An Nhiên">
+                                <img width="220" height="27" class="lazyload" src="https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/lazy.png"  data-src="https://thaoduocannhien.net/wp-content/uploads/2023/07/logo-1.png" alt="Thảo Dược An Nhiên" />
+                            </a>
+                            <div class="content-ft">
+                                                            </div>
+                            <h4 class="title-menu">
+                                Hình thức thanh toán
+                            </h4>
+                            <ul class="thanhtoan">
+                                <li>
+                                    <img width="57" height="35" alt="Payment 1" data-src="https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/payment_1.png" class="lazyload" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAA
+
+Images count: 122
+  IMG: https://thaoduocannhien.net/wp-content/uploads/2023/07/logo-1.png
+  IMG: https://thaoduocannhien.net/wp-content/uploads/2023/07/logo-1.png
+  IMG: https://thaoduocannhien.net/wp-content/uploads/2023/07/banner-khuyen-mai.png
+  IMG: https://thaoduocannhien.net/wp-content/uploads/2023/07/banner-ca-cao-giam-can-nalee-slim-the-bitter-cacao-1.jpg
+  IMG: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/leaf.png
+  IMG: https://thaoduocannhien.net/wp-content/uploads/2023/06/giam-can-2.jpg
+  IMG: https://thaoduocannhien.net/wp-content/uploads/2025/09/cham-soc-da-mat-1.jpg
+  IMG: https://thaoduocannhien.net/wp-content/uploads/2023/06/suc-khoe.jpg
+  IMG: https://thaoduocannhien.net/wp-content/uploads/2023/06/dep-da.jpg
+  IMG: https://thaoduocannhien.net/wp-content/uploads/2023/06/tang-can.jpg
+  IMG: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/lazy.png
+  IMG: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/lazy.png
+  IMG: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/lazy.png
+  IMG: https://thaoduocannhien.net/wp-content/themes/hbd/assets/public/leaf.png
+  IMG: https://thaoduocannhien.net/wp-content/uploads/2026/10/toner-dr-pepti-e1791989947158.jpg
+
+Sample hex colors in page: ['#0068FF', '#fecf72', '#448AFF', '#ef9f00', '#000', '#FFF', '#1272e8', '#679210', '#e8434c', '#038', '#d61114', '#333', '#efffcf', '#ffffff', '#3985f7', '#fff']

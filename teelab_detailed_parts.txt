@@ -1,0 +1,358 @@
+=== HEADER HTML ===
+<header class="header header-index position-fixed">
+	<div class="midder-header py-3">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-3 col-md-4 col-3">
+					<div class="btn-head btn-menu d-inline-block ml-3 ml-md-0">
+						<a href="javascript:;" class="menu-bar" title="Menu">
+							<img src="//bizweb.dktcdn.net/100/575/016/themes/1111006/assets/menu-bar.svg?1793084272807" alt="Menu" width="21" height="19"/>
+						</a>
+					</div>
+					<div class="block-search btn-head d-lg-none d-inline-block ml-3">
+						<a href="javascript:;" title="Tìm kiếm">
+							<img src="//bizweb.dktcdn.net/100/575/016/themes/1111006/assets/search.svg?1793084272807" alt="Search" width="26" height="26">
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-4 col-6 logo text-center">
+					<a href="/" class="logo-wrapper" title="Logo">	
+						<img src="//bizweb.dktcdn.net/100/575/016/themes/1111006/assets/logo.png?1793084272807" alt="teelab:alter" width="250" height="34"/>
+						<img class="img-fixed d-none" src="//bizweb.dktcdn.net/100/575/016/themes/1111006/assets/logo-fixed.png?1793084272807" alt="teelab:alter" width="39" height="34"/>
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-3">
+					<div class="col-search-cart text-right">
+						<div class="btn-head d-lg-inline-block blog_header_wrap d-none">
+							<a data-target="blog_header" href="javascript:;" title="Thông báo mới" class='blog_header_title menu-a modal-toggle'>
+								<img src="//bizweb.dktcdn.net/100/575/016/themes/1111006/assets/noti.svg?1793084272807" alt="Thông báo mới" width="23" height="26">
+								
+								<span class="blog_header_count">1</span>
+								
+							</a>
+
+
+						</div>
+						<div class="block-search btn-head d-lg-inline-block d-none ml-xl-1">
+							<a href="javascript:;" title="Tìm kiếm">
+								<img src="//bizweb.dktcdn.net/100/575/016/themes/1111006/assets/search.svg?1793084272807" alt="Search" width="26" height="26">
+							</a>
+						</div>
+						<div class="user-header btn-head d-inline-block ml-xl-1">
+							<a class="icon-user-mobile" href="/account" title="Tài khoản">
+								<img src="//bizweb.dktcdn.net/100/575/016/themes/1111006/assets/user.svg?1793084272807" alt="Tài khoản" width="23" height="26">
+							</a>
+						</div>
+						<div class="block-cart btn-head d-inline-block ml-xl-1 ml-3 mr-3 mr-md-0">
+							<a href="/cart" class="header-cart position-relative" aria-label="Xem giỏ hàng" title="Giỏ hàng">
+								<img src="//bizweb.dktcdn.net/100/575/016/themes/1111006/assets/cart.svg?1793084272807" alt="Giỏ hàng" width="23" height="26">
+								<span class="count_item_pr count_item text-center text-white position-absolute">0</span>
+							</a>
+							<div class="top-cart-content p-1 pt-2 bg-white text-left shadow-sm rounded position-absolute">					
+								<div class="CartHeaderContainer"></div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</header>
+
+=== NAV HTML ===
+<nav class="header-nav bg-white h-100 p-2 p-lg-4 position-fixed">
+	<a href="javascript:void(0);" class="header-nav-mobile-close"></a>
+	<div class='mobile_nav d-flex d-lg-none'>
+		<a data-target="blog_header" href="javascript:;" title="Thông báo mới" class=' mobile_nav_item blog_header_mb menu-a modal-toggle'>
+			<img src="//bizweb.dktcdn.net/100/575/016/themes/1111006/assets/noti.svg?1793084272807" alt="Thông báo mới" width="23" height="26">
+			
+			<span class="blog_header_count">1</span>
+			
+		</a>
+		<a href="javascript:;" title="Tìm kiếm" class='mobile_nav_item mobile_nav_search '>
+			<img src="//bizweb.dktcdn.net/100/575/016/themes/1111006/assets/search.svg?1793084272807" alt="Search" width="26" height="26">
+		</a>
+		<a href="/" class='mobile_nav_item homesvg'>
+		<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+<path d="M 23.951172 4 A 1.50015 1.50015 0 0 0 23.072266 4.3222656 L 8.859375 15.519531 C 7.0554772 16.941163 6 19.113506 6 21.410156 L 6 40.5 C 6 41.863594 7.1364058 43 8.5 43 L 18.5 43 C 19.863594 43 21 41.863594 21 40.5 L 21 30.5 C 21 30.204955 21.204955 30 21.5 30 L 26.5 30 C 26.795045 30 27 30.204955 27 30.5 L 27 40.5 C 27 41.863594 28.136406 43 29.5 43 L 39.5 43 C 40.863594 43 42 41.863594 42 40.5 L 42 21.410156 C 42 19.113506 40.944523 16.941163 39.140625 15.519531 L 24.927734 4.3222656 A 1.50015 1.50015 0 0 0 23.951172 4 z M 24 7.4101562 L 37.285156 17.876953 C 38.369258 18.731322 39 20.030807 39 21.410156 L 39 40 L 30 40 L 30 30.5 C 30 28.585045 28.414955 27 26.5 27 L 21.5 27 C 19.585045 27 18 28.585045 18 30.5 L 18 40 L 9 40 L 9 21.410156 C 9 20.030807 9.6307412 18.731322 10.714844 17.876953 L 24 7.4101562 z"></path>
+</svg>
+		</a>
+		
+	</div>
+
+	<ul class="item_top mb-3 mb-lg-4">
+		<li class="nav-item mb-2">				
+			<a class="first d-block font-weight-bold" href="/world-tour-tokyo" title="WORLD TOUR: TOKYO">
+				WORLD TOUR: TOKYO
+			</a>
+		</li>
+		<li class="nav-item mb-2">				
+			<a class="d-block font-weight-bold" href="/teelab-alter-essentials-fw26-1" title="TEELAB ALTER ESSENTIALS FW26">
+				TEELAB ALTER ESSENTIALS FW26
+			</a>
+		</li>
+		<li class="nav-item mb-2">				
+			<a class="d-block font-weight-bold" href="/teelab-alter-ss26-essentials" title="TEELAB ALTER ESSENTIALS SS26">
+				TEELAB ALTER ESSENTIALS SS26
+			</a>
+		</li>
+		<li class="nav-item mb-2">				
+			<a class="d-block font-weight-bold" href="/ti-star-collection" title="TI STAR COLLECTION">
+				TI STAR COLLECTION
+			</a>
+		</li>
+		<li class="nav-item mb-2">				
+			<a class="d-block font-weight-bold" href="/animals-collection" title="Animals Collection">
+				Animals Collection
+			</a>
+		</li>
+		<li class="nav-item mb-2">				
+			<a class="d-block font-weight-bold" href="/lookbook" title="lookbook">
+				lookbook
+			</a>
+		</li>
+	</ul>
+	<ul class="item_big">
+		<li class="nav-item mb-2 position-relative">				
+			<a class="d-block position-relative" href="/tat-ca-san-pham-1" title="All Products">
+				All Products
+			</a>
+		</li>
+		<li class="nav-item mb-2 position-relative">				
+			<a class="d-block position-relative" href="/ao-thun" title="Tee">
+				Tee
+			</a>
+		</li>
+		<li class="nav-item mb-2 position-relative">				
+			<a class="d-block position-relative" href="/ao-polo" title="Polo">
+				Polo
+			</a>
+		</li>
+		<li class="nav-item mb-2 position-relative">				
+			<a class="d-block position-relative" href="/ao-so-mi" title="Shirt">
+				Shirt
+			</a>
+		</li>
+		<li class="nav-item mb-2 position-relative">				
+			<a class="d-block position-relative" href="/hoodie-sweater" title="Hoodie">
+				Hoodie
+			</a>
+		</li>
+		<li class="nav-item mb-2 position-relative">				
+			<a class="d-block position-relative" href="/ao-khoac" title="Outerwear">
+				Outerwear
+			</a>
+		</li>
+		<li class="nav-item mb-2 position-relative">				
+			<a class="d-block position-relative" href="/qua-n-shorts" title="Shorts">
+				Shorts
+			</a>
+		</li>
+		<li class="nav-item mb-2 position-relative">				
+			<a class="d-block position-relative" href="/quan" title="Pants">
+				Pants
+			</a>
+		</li>
+		<li class="nav-item mb-2 position-relative">				
+			<a class="d-block position-relative" href="/phu-kien" title="Accessories">
+				Accessories
+			</a>
+		</li>
+	</ul>
+</nav>
+
+=== SECTIONS (8) ===
+Section 1: section_2banner (len: 1158)
+Section 2: section_slider (len: 1985)
+Section 3: section_product module_product mb-4 mb-lg-5 (len: 45650)
+Section 4: section_product module_product mb-4 mb-lg-5 (len: 57507)
+Section 5: section_product module_product mb-4 mb-lg-5 (len: 144115)
+Section 6: section_blog mb-4 mb-lg-5 (len: 5145)
+Section 7: section_lookbook mb-4 mb-lg-5 (len: 1872)
+Section 8: svs-section (len: 1325)
+
+=== FOOTER HTML ===
+<footer class="footer border-top">
+	<div class="mid-footer py-4 py-md-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-3 col-lg-2 link-list col-footer mb-3 mb-lg-0">
+					<h4 class="title-menu mb-2 mb-lg-3 font-weight-bold position-relative">
+						FAQ
+						<span class="Collapsible__Plus d-md-none"></span>
+					</h4>
+					<div class="list-menu hidden-mobile">
+						
+						<a class="d-block mb-1 mb-lg-2" href="https://teelab.vn/account/orders" title="Track Your Order">Track Your Order</a>
+						
+					</div>
+				</div>
+				<div class="col-12 col-md-4 col-lg-3 link-list col-footer mb-3 mb-lg-0">
+					<h4 class="title-menu mb-2 mb-lg-3 font-weight-bold position-relative">
+						CLIENT SERVICES
+						<span class="Collapsible__Plus d-md-none"></span>
+					</h4>
+					<div class="list-menu hidden-mobile">
+						
+						<a class="d-block mb-1 mb-lg-2" href="/chinh-sach-mua-hang" title="Chính sách mua hàng">Chính sách mua hàng</a>
+						
+						<a class="d-block mb-1 mb-lg-2" href="/chinh-sach-bao-mat-thong-tin" title="Chính sách bảo mật thông tin">Chính sách bảo mật thông tin</a>
+						
+						<a class="d-block mb-1 mb-lg-2" href="/phuong-thuc-thanh-toan" title="Phương thức thanh toán">Phương thức thanh toán</a>
+						
+						<a class="d-block mb-1 mb-lg-2" href="/chinh-sach-tra-hang" title="Chính sách trả hàng">Chính sách trả hàng</a>
+						
+						<a class="d-block mb-1 mb-lg-2" href="/chinh-sach-giao-nhan-van-chuyen-kiem-hang" title="Chính sách giao nhận, vận chuyển, kiểm hàng">Chính sách giao nhận, vận chuyển, kiểm hàng</a>
+						
+					</div>
+				</div>
+				<div class="col-12 col-md-5 col-lg-6 link-list col-footer mb-3 mb-lg-0">
+					<div class="mailchim">
+						<h4 class="title-menu mb-2 mb-lg-3 font-weight-bold">
+							NEWSLETTER
+						</h4>
+						<p class="mailchim_des mb-3 mb-lg-4">SIGN UP TO RECEIVE EMAIL UPDATES ON OUR LATEST COLLECTIONS, PRODUCTS, FASHION SHOWS, AND PROJECTS.
+I AGREE TO RECEIVE TEELAB NEWSLETTER TO BE THE FIRST TO KNOW ABOUT NEW COLLECTIONS, EXCLUSIVE PRODUCT LAUNCHES, EVENTS, AND AVALANE SERVICES. BY SUBSCRIBING, I ACCEPT TEELAB PRIVACY POLICY</p>
+						<form id="mc-form" class="newsletter-form position-relative" data-toggle="validator">
+							<input aria-label="Địa chỉ Email" type="email" class="form-control border rounded-pill" placeholder="Email address" name="EMAIL" required autocomplete="off" />
+							<button class="btn btn-default text-uppercase rounded-pill px-3 px-lg-4 position-absolute" type="submit" aria-label="Đăng ký nhận tin" name="subscribe">
+								Send
+							</button>
+						</form>
+						<div class="mailchimp-alerts ">
+							<div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
+							<div class="mailchimp-success"></div><!-- mailchimp-success end -->
+							<div class="mailchimp-error"></div><!-- mailchimp-error end -->
+						</div>
+						<script>
+							$('#mc-form').ajaxChimp({
+								language: 'en',
+								callback: mailChimpResponse,
+								url: ''
+							});
+							function mailChimpResponse(resp) {
+								if (resp.result === 'success') {
+									if(resp.msg == 'Thank you for subscribing!'){
+										$('.mailchimp-success').html('Cảm ơn bạn đã đăng ký!').fadeIn(900);
+									}else{
+										$('.mailchimp-success').html('' + resp.msg).fadeIn(900);
+									}
+									$('.mailchimp-error').fadeOut(100);
+								} else if (resp.result === 'error') {
+									if(resp.msg == '0 - Please enter a value'){
+										$('.mailchimp-error').html('Vui lòng nhập các trường thông tin').fadeIn(900);
+									}else if(resp.msg == '0 - An email address must contain a single @'){
+										$('.mailchimp-error').html('Địa chỉ email phải chứa ký tự @').fadeIn(900);
+									}else if(resp.msg == 'This email cannot be added to this list. Please enter a different email address.'){
+										$('.mailchimp-error').html('Email này không thể được thêm vào danh sách này. Vui lòng nhập một địa chỉ email khác.').fadeIn(900);
+									}else if(resp.msg.includes('0 - The domain portion of the email address is invalid')){
+										$('.mailchimp-error').html('Phần tên miền của địa chỉ email không hợp lệ').fadeIn(900);
+									}else if(resp.msg.includes('0 - The username portion of the email address is empty')){
+										$('.mailchimp-error').html('Phần tên người dùng của địa chỉ email trống').fadeIn(900);
+									}else if(resp.msg == 'Thank you for subscribing!'){
+										$('.mailchimp-error').html('Cảm ơn bạn đã đăng ký!').fadeIn(900);
+									}else{
+										$('.mailchimp-error').html('' + resp.msg).fadeIn(900);
+									}
+								}
+							}
+						</script>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bottom-footer pt-3 border-top">
+		<div class="container">
+			<div class="social-payment d-flex align-items-center justify-content-between flex-wrap">
+				<div class="link-social mb-3">
+					
+					<a class="d-inline-block text-center mr-1 mb-1" href="https://www.facebook.com/teelab.vn/" title="Theo dõi trên Pinterest">
+						<img src="//bizweb.dktcdn.net/100/575/016/themes/1111006/assets/social_1.png?1793084272807" alt="Pinterest" width="32" height="32">
+					</a>
+					
+					
+					<a class="d-inline-block text-center mr-1 mb-1" href="https://www.instagram.com/teelab.vn/#" title="Theo dõi trên Instagram">
+						<img src="//bizweb.dktcdn.net/100/575/016/themes/1111006/assets/social_2.png?1793084272807" alt="Instagram" width="32" height="32">
+					</a>
+					
+					
+					<a class="d-inline-block text-center mr-1 mb-1" href="https://www.tiktok.com/@teelab.studio" title="Theo dõi trên Tiktok">
+						<img src="//bizweb.dktcdn.net/100/575/016/themes/1111006/assets/social_3.png?1793084272807" alt="Tiktok" width="32" height="32">
+					</a>
+					
+					
+					<a class="d-inline-block text-center mr-1 mb-1" href="https://www.threads.com/@teelab.vn" title="Theo dõi trên Tumblr">
+						<img src="//bizweb.dktcdn.net/100/575/016/themes/1111006/assets/social_4.png?1793084272807" alt="Tumblr" width="32" height="32">
+					</a>
+					
+					
+					<a class="d-inline-block text-center mr-1 mb-1" href="https://www.youtube.com/@teelab.official" title="Theo dõi trên Youtube">
+						<img src="//bizweb.dktcdn.net/100/575/016/themes/1111006/assets/social_5.png?1793084272807" alt="Youtube" width="32" height="32">
+					</a>
+					
+					
+					<a class="d-inline-block text-center mr-1 mb-1" href="#" title="Theo dõi trên Vimeo">
+						<img src="//bizweb.dktcdn.net/100/575/016/themes/1111006/assets/social_6.png?1793084272807" alt="Vimeo" width="32" height="32">
+					</a>
+					
+					
+					<a class="d-inline-block text-center mr-1 mb-1" href="#" title="Theo dõi trên Linkedin">
+						<img src="//bizweb.dktcdn.net/100/575/016/themes/1111006/assets/social_7.png?1793084272807" alt="Linkedin" width="32" height="32">
+					</a>
+					
+				</div>
+				
+				<a class="d-block mb-3"href="" target="_blank" title="Bộ công thương">
+					<img src="//bizweb.dktcdn.net/100/575/016/themes/1111006/assets/logo_bct.png?1793084272807" alt="Bộ công thương">
+				</a>
+				
+				<div class="payment mb-3">
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<img class="w-auto ml-1 mb-1" src="//bizweb.dktcdn.net/100/575/016/themes/1111006/assets/payment-4.png?1793084272807" alt="Payment 4">
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="copyright" class="copyright py-2">
+		<div class="container">
+			<div class="fot_copyright">
+				
+				teelab:alter
+				
+				<span class="d-none hidden"> | Cung cấp bởi  </span>
+				
+				
+				<a href="https://www.sapo.vn/?utm_campaign=cpn:kho_theme-plm:footer&utm_source=Tu_nhien&utm_medium=referral&utm_content=fm:text_link-km:-sz:&utm_term=&campaign=kho_theme-sapo" rel="nofollow" title="Sapo" target="_blank" class="d-none hidden">Sapo</a>
+				
+			</div>
+		</div>
+	</div>
+</footer>

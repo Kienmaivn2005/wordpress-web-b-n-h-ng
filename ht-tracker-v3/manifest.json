@@ -1,0 +1,25 @@
+{
+  "name": "THEKIEN Fashion - Teelab Alter",
+  "short_name": "THEKIEN",
+  "description": "Thương hiệu thời trang Streetwear Unisex cao cấp THEKIEN & Teelab Alter",
+  "start_url": "/thekien05/",
+  "scope": "/thekien05/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://bizweb.dktcdn.net/100/575/016/themes/1111006/assets/favicon.png?1793084272807",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://bizweb.dktcdn.net/100/575/016/themes/1111006/assets/favicon.png?1793084272807",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

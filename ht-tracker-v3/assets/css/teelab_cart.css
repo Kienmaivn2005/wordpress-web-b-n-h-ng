@@ -1,0 +1,841 @@
+/* ============================================================
+   TEELAB CART & CHECKOUT STYLES
+   Phong cách Streetwear tối giản, hiện đại, responsive 100%
+   ============================================================ */
+
+/* Backdrop chung cho Giỏ hàng & Checkout */
+.kien-cart-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 99998;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    backdrop-filter: blur(2px);
+}
+.kien-cart-backdrop.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* ================= CART DRAWER ================= */
+.kien-cart-drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 420px;
+    max-width: 92vw;
+    height: 100vh;
+    background: #ffffff;
+    z-index: 99999;
+    box-shadow: -4px 0 25px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.kien-cart-drawer.active {
+    transform: translateX(0);
+}
+
+.kien-cart-header {
+    padding: 18px 20px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000;
+    color: #fff;
+}
+.kien-cart-title {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.kien-cart-close {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0 4px;
+    transition: transform 0.2s;
+}
+.kien-cart-close:hover {
+    transform: scale(1.15);
+}
+
+/* Thanh Freeship Progress */
+.kien-freeship-bar {
+    background: #fbfbfb;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 10px 20px;
+    font-size: 12px;
+    color: #333;
+}
+.kien-freeship-text {
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+.kien-freeship-progress {
+    height: 5px;
+    background: #e9ecef;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.kien-freeship-fill {
+    height: 100%;
+    background: #000;
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+/* Danh sách món trong giỏ */
+.kien-cart-body {
+    flex: 1;
+    overflow-y: auto;
+    padding: 15px 20px;
+}
+.kien-cart-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    color: #888;
+    padding: 40px 20px;
+}
+.kien-cart-empty svg {
+    margin-bottom: 15px;
+    stroke: #aaa;
+}
+.kien-cart-empty p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #555;
+}
+.kien-cart-empty .btn-shop-now {
+    background: #000;
+    color: #fff;
+    padding: 10px 24px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.kien-cart-item {
+    display: flex;
+    gap: 14px;
+    padding: 14px 0;
+    border-bottom: 1px dashed #eee;
+    align-items: center;
+}
+.kien-cart-item-img {
+    width: 72px;
+    height: 90px;
+    object-fit: cover;
+    background: #f7f7f7;
+    flex-shrink: 0;
+    border: 1px solid #f0f0f0;
+}
+.kien-cart-item-info {
+    flex: 1;
+    min-width: 0;
+}
+.kien-cart-item-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: #111;
+    margin: 0 0 4px;
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.kien-cart-item-variant {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 6px;
+    background: #f5f5f5;
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+.kien-cart-item-price {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+.kien-cart-item-stepper {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    margin-top: 6px;
+    height: 28px;
+}
+.kien-cart-item-stepper button {
+    background: #fff;
+    border: none;
+    width: 26px;
+    height: 100%;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    color: #333;
+}
+.kien-cart-item-stepper button:hover {
+    background: #f0f0f0;
+}
+.kien-cart-item-stepper span {
+    padding: 0 10px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.kien-cart-item-del {
+    background: transparent;
+    border: none;
+    color: #999;
+    cursor: pointer;
+    padding: 6px;
+    transition: color 0.2s;
+    font-size: 16px;
+}
+.kien-cart-item-del:hover {
+    color: #e53935;
+}
+
+/* Footer giỏ hàng */
+.kien-cart-footer {
+    padding: 16px 20px;
+    border-top: 1px solid #eee;
+    background: #fafafa;
+}
+.kien-cart-subtotal-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.kien-cart-subtotal-label {
+    font-size: 14px;
+    color: #555;
+    font-weight: 500;
+}
+.kien-cart-subtotal-val {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+.kien-btn-checkout {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 14px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.kien-btn-checkout:hover {
+    background: #222;
+}
+.kien-btn-checkout:active {
+    transform: scale(0.99);
+}
+
+/* ================= CHECKOUT MODAL ================= */
+.kien-checkout-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.96);
+    width: 580px;
+    max-width: 95vw;
+    max-height: 90vh;
+    background: #ffffff;
+    z-index: 100000;
+    border-radius: 6px;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.kien-checkout-modal.active {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.kien-modal-header {
+    padding: 16px 20px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.kien-modal-title {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.kien-modal-close {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.kien-modal-body {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+/* Tóm tắt đơn hàng trong modal */
+.kien-order-summary {
+    background: #f8f9fa;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 12px 16px;
+    margin-bottom: 20px;
+}
+.kien-order-summary-title {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    color: #333;
+}
+.kien-summary-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 4px;
+    color: #555;
+}
+.kien-summary-total {
+    border-top: 1px dashed #ddd;
+    padding-top: 8px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+}
+
+/* Form fields */
+.kien-form-group {
+    margin-bottom: 14px;
+}
+.kien-form-label {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 6px;
+}
+.kien-form-label .req {
+    color: #e53935;
+}
+.kien-form-control {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    border-radius: 0;
+    transition: border-color 0.2s;
+    background: #fff;
+}
+.kien-form-control:focus {
+    border-color: #000;
+    outline: none;
+}
+
+/* Phương thức thanh toán */
+.kien-payment-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 6px;
+}
+.kien-payment-option {
+    border: 1px solid #ddd;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.kien-payment-option:hover {
+    border-color: #999;
+}
+.kien-payment-option.active {
+    border-color: #000;
+    background: #fdfdfd;
+}
+.kien-payment-option input[type="radio"] {
+    accent-color: #000;
+    cursor: pointer;
+}
+.kien-payment-desc {
+    font-size: 13px;
+    font-weight: 600;
+    color: #222;
+}
+
+.kien-modal-footer {
+    padding: 14px 20px;
+    border-top: 1px solid #eee;
+    background: #fafafa;
+}
+.kien-btn-confirm-order {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 14px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.kien-btn-confirm-order:hover {
+    background: #222;
+}
+.kien-btn-confirm-order:disabled {
+    background: #888;
+    cursor: not-allowed;
+}
+
+/* Màn hình thành công */
+.kien-success-screen {
+    text-align: center;
+    padding: 30px 15px;
+}
+.kien-success-icon {
+    width: 60px;
+    height: 60px;
+    background: #28a745;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+.kien-success-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #111;
+    margin-bottom: 8px;
+}
+.kien-order-code-badge {
+    display: inline-block;
+    background: #eee;
+    padding: 4px 12px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 16px;
+}
+.kien-qr-box {
+    margin: 15px 0;
+    padding: 15px;
+    background: #f8f9fa;
+    border: 1px dashed #ccc;
+}
+.kien-qr-img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Toast popup */
+.kien-toast {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background: #000;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 4px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+    z-index: 100005;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.kien-toast.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Style nút Mua ngay trên chi tiết sản phẩm */
+.btn-kien-buynow {
+    width: 100%;
+    background: #ff3b30 !important;
+    color: #fff !important;
+    border: none !important;
+    padding: 14px 20px !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 8px !important;
+    transition: background 0.2s !important;
+    margin-top: 8px !important;
+}
+.btn-kien-buynow:hover {
+    background: #e0281d !important;
+}
+
+
+
+/* ================= TRACKING MODAL ================= */
+.kien-tracking-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.96);
+    width: 660px;
+    max-width: 95vw;
+    max-height: 90vh;
+    background: #ffffff;
+    z-index: 100001;
+    border-radius: 6px;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.kien-tracking-modal.active {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.kien-tracking-searchbox {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+.kien-tracking-input {
+    flex: 1;
+    padding: 12px 14px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+    border-radius: 0;
+}
+.kien-tracking-input:focus {
+    border-color: #000;
+}
+.kien-btn-track-submit {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 0 20px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background 0.2s;
+    white-space: nowrap;
+}
+.kien-btn-track-submit:hover {
+    background: #222;
+}
+
+/* Timeline tiến độ */
+.kien-track-timeline {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 25px 10px 30px;
+}
+.kien-track-timeline::before {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    height: 3px;
+    background: #e2e8f0;
+    z-index: 1;
+}
+.kien-track-timeline-line-active {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    height: 3px;
+    background: #000;
+    z-index: 2;
+    transition: width 0.3s ease;
+}
+.kien-track-step {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    text-align: center;
+}
+.kien-track-step-circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #fff;
+    border: 3px solid #cbd5e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+    color: #64748b;
+    margin-bottom: 8px;
+    transition: all 0.3s;
+}
+.kien-track-step.active .kien-track-step-circle {
+    border-color: #000;
+    background: #000;
+    color: #fff;
+}
+.kien-track-step-label {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #64748b;
+    line-height: 1.2;
+}
+.kien-track-step.active .kien-track-step-label {
+    color: #000;
+    font-weight: 700;
+}
+
+/* Thẻ kết quả đơn hàng */
+.kien-track-order-card {
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background: #fff;
+}
+.kien-track-order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed #eee;
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.kien-track-order-code {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    letter-spacing: 0.5px;
+}
+.kien-track-order-badge {
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.kien-track-info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    font-size: 13px;
+    color: #444;
+    background: #f8f9fa;
+    padding: 10px 14px;
+    border-radius: 4px;
+    margin-bottom: 14px;
+}
+@media (max-width: 575px) {
+    .kien-track-info-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Bảng sản phẩm trong tra cứu */
+.kien-track-items {
+    margin-bottom: 12px;
+}
+.kien-track-item-row {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+.kien-track-item-row img {
+    width: 48px;
+    height: 60px;
+    object-fit: cover;
+    border: 1px solid #eee;
+    flex-shrink: 0;
+}
+.kien-track-item-detail {
+    flex: 1;
+    min-width: 0;
+}
+.kien-track-item-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: #222;
+    margin: 0 0 2px;
+    line-height: 1.3;
+}
+.kien-track-item-meta {
+    font-size: 12px;
+    color: #777;
+}
+.kien-track-item-total {
+    font-size: 13px;
+    font-weight: 700;
+    color: #000;
+    text-align: right;
+}
+
+.kien-track-total-box {
+    text-align: right;
+    font-size: 14px;
+    padding-top: 8px;
+    border-top: 1px dashed #ddd;
+}
+.kien-track-total-box strong {
+    font-size: 16px;
+    color: #000;
+    margin-left: 6px;
+}
+
+.btn-track-my-order {
+    width: 100%;
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+    padding: 12px 18px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.btn-track-my-order:hover {
+    background: #000;
+    color: #fff;
+}
+
+
+
+/* Màu icon tra cứu trên Header: LUÔN MÀU TRẮNG */
+.header-track svg,
+.block-track svg,
+header .header-track svg {
+    stroke: #ffffff !important;
+    color: #ffffff !important;
+}
+
+header.header-index .header-track,
+.header.header-index .header-track {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff !important;
+}
+
+header.header-other .header-track,
+.header.header-other .header-track {
+    background: #000000;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+header.header-other .header-track svg {
+    width: 18px !important;
+    height: 18px !important;
+}
+
+
+
+/* Ẩn hoàn toàn mũi tên cuộn trang (back to top) */
+.backtop,
+#backToTopBtn,
+.scroll-top,
+.btn-back-to-top,
+.awe-backtotop,
+a[title="Lên đầu trang"] {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}

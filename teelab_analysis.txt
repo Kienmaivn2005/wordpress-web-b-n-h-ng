@@ -1,0 +1,30 @@
+HTML Length: 475548
+Title: teelab:alter		
+Platform keyword detected: bizweb
+Platform keyword detected: sapo
+
+CSS files count: 9
+  CSS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/404page.scss.css?1793084272807
+  CSS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/ajaxcart.scss.css?1793084272807
+  CSS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/bootstrap-min.css?1793084272807
+  CSS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/bpr-products-module.css?1793084272807
+  CSS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/index.scss.css?1793084272807
+  CSS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/main.scss.css?1793084272807
+  CSS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/quickviews.scss.css?1793084272807
+  CSS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/quickviews_popup_cart.scss.css?1793084272807
+  CSS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/swiper.scss.css?1793084272807
+
+JS scripts count: 7
+  JS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/index.js?1793084272807
+  JS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/jquery.js?1793084272807
+  JS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/lazy.js?1793084272807
+  JS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/main.js?1793084272807
+  JS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/swiper.js?1793084272807
+  JS: /dist/js/stats.min.js?v=70fde4b
+  JS: https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v20.0
+
+Header length: 2973
+
+Total links: 188
+
+Sample section classes: {'product-info mt-3', 'product-thumbnail position-relative', 'modal_header', 'blog_header_content', 'section_slider', 'block-product product-1', 'section_2banner', 'item_product_main', 'home-slider swiper-container', 'blog_header_item', 'user-header btn-head d-inline-block ml-xl-1', 'blog_header_itemdetail', 'midder-header py-3', 'product-1-swiper swiper-container', 'btn-head d-lg-inline-block blog_header_wrap d-none', 'CartHeaderContainer', 'section_product module_product mb-4 mb-lg-5'}

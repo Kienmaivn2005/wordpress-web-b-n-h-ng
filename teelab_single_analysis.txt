@@ -1,0 +1,14 @@
+Title: Teelab Alter Relaxed Fit Suede Essentials Track Jacket AK149		
+CSS files: 12
+  CSS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/404page.scss.css?1793084272807
+  CSS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/ajaxcart.scss.css?1793084272807
+  CSS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/bootstrap-min.css?1793084272807
+  CSS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/bpr-products-module.css?1793084272807
+  CSS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/breadcrumb_style.scss.css?1793084272807
+  CSS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/index.scss.css?1793084272807
+  CSS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/main.scss.css?1793084272807
+  CSS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/picbox.scss.css?1793084272807
+  CSS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/product_style.scss.css?1793084272807
+  CSS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/quickviews.scss.css?1793084272807
+  CSS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/quickviews_popup_cart.scss.css?1793084272807
+  CSS: //bizweb.dktcdn.net/100/575/016/themes/1111006/assets/swiper.scss.css?1793084272807

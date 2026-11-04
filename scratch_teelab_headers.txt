@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Date: Mon, 02 Nov 2026 04:23:40 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=rkTTIwXAMD6uzpwHSvtYKdxn5tdiiFoLFsWZdXAyH%2BtMcSexPU%2FeaDjhm18l8wsHggszpyYebMdJRpN1lIUIGZNSEE204ThOIn8a7BhtXa%2FsPoIGGW2CrOKKgIh%2FTRNzeqhEXl53S9A%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Set-Cookie: cart_currency=VND; expires=Mon, 16 Nov 2026 04:23:40 GMT; path=/; samesite=lax
+Set-Cookie: _landing_page=%2F; expires=Tue, 17 Nov 2026 04:23:40 GMT; path=/
+Set-Cookie: _orig_referrer=; expires=Tue, 17 Nov 2026 04:23:40 GMT; path=/
+Set-Cookie: _sapo_t=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; secure; samesite=lax; httponly
+strict-transport-security: max-age=7776000
+x-alternate-cache-key: W/"e25aa0bcd18124d6da0015994b5b70a7"
+x-cache: hit, server
+x-content-type-options: nosniff
+content-security-policy: block-all-mixed-content; frame-ancestors 'self' https://*.sapo.vn https://*.mysapo.net https://aelang.aecomapp.com; upgrade-insecure-requests
+x-request-id: f11d5648ebde156dc60a22e80d538e7c
+cf-cache-status: DYNAMIC
+vary: accept-encoding
+CF-RAY: a5405d7abad584f9-HKG
+alt-svc: h3=":443"; ma=86400
+
